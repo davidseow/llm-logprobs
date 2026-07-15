@@ -19,7 +19,7 @@ Everything runs in the browser — there is no server and nothing you type leave
 
 ## The two engines
 
-- **Real model** — [SmolLM2-135M-Instruct](https://huggingface.co/onnx-community/SmolLM2-135M-Instruct)
+- **Real model** — [SmolLM2-135M-Instruct](https://huggingface.co/onnx-community/SmolLM2-135M-Instruct-ONNX)
   (Apache-2.0, by Hugging Face TB), run with
   [🤗 Transformers.js](https://huggingface.co/docs/transformers.js) at 4-bit quantisation on
   WebGPU, falling back to WASM. It is a ~100 MB one-off download, cached by the browser.

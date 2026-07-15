@@ -81,6 +81,6 @@ export interface PredictionEngine {
 /** How many candidates each step carries for the inspector. */
 export const TOP_K_DISPLAY = 10;
 
-export const MODEL_ID = 'onnx-community/SmolLM2-135M-Instruct';
+export const MODEL_ID = 'onnx-community/SmolLM2-135M-Instruct-ONNX';
 export const MODEL_DTYPE = 'q4';
 export const MODEL_APPROX_SIZE = '≈ 100 MB';
